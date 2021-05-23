@@ -11,6 +11,9 @@
 		EDD31CBB2659FA01001992BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD31CBA2659FA01001992BD /* ContentView.swift */; };
 		EDD31CBD2659FA0F001992BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD31CBC2659FA0F001992BD /* Assets.xcassets */; };
 		EDD31CC02659FA0F001992BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD31CBF2659FA0F001992BD /* Preview Assets.xcassets */; };
+		EDD31CCE265A11CC001992BD /* HamsterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD31CCD265A11CC001992BD /* HamsterRow.swift */; };
+		EDD31CD1265A2358001992BD /* AnimalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD31CD0265A2358001992BD /* AnimalList.swift */; };
+		EDD31CD4265A308F001992BD /* AnimalDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD31CD3265A308F001992BD /* AnimalDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		EDD31CBC2659FA0F001992BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDD31CBF2659FA0F001992BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDD31CC12659FA0F001992BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD31CCD265A11CC001992BD /* HamsterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamsterRow.swift; sourceTree = "<group>"; };
+		EDD31CD0265A2358001992BD /* AnimalList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalList.swift; sourceTree = "<group>"; };
+		EDD31CD3265A308F001992BD /* AnimalDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				EDD31CB82659FA01001992BD /* DemoApp.swift */,
 				EDD31CBA2659FA01001992BD /* ContentView.swift */,
+				EDD31CCD265A11CC001992BD /* HamsterRow.swift */,
+				EDD31CD0265A2358001992BD /* AnimalList.swift */,
+				EDD31CD3265A308F001992BD /* AnimalDetail.swift */,
 				EDD31CBC2659FA0F001992BD /* Assets.xcassets */,
 				EDD31CC12659FA0F001992BD /* Info.plist */,
 				EDD31CBE2659FA0F001992BD /* Preview Content */,
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDD31CBB2659FA01001992BD /* ContentView.swift in Sources */,
+				EDD31CD1265A2358001992BD /* AnimalList.swift in Sources */,
+				EDD31CD4265A308F001992BD /* AnimalDetail.swift in Sources */,
+				EDD31CCE265A11CC001992BD /* HamsterRow.swift in Sources */,
 				EDD31CB92659FA01001992BD /* DemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
